@@ -2630,7 +2630,7 @@
         
             $('#twcheese_hauls_prompt_confirm').on('click', async function(e) {
                 e.preventDefault();
-                document.getElementById('twcheese_servant_text').innerHTML = '<br/>May the cheese be with you.';
+                document.getElementById('twcheese_servant_text').innerHTML = '<br/>A sajt legyen veled.';
                 $('#twcheese_servant_info_prompt').hide();
                 $('#twcheese_servant_info_loading').show();
                 
@@ -2669,7 +2669,7 @@
                                             </div>
                                         </td>
                                         <td id="twcheese_servant_info_loading" class="twcheese-servant-info" style="display: none;">
-                                            <h5>Loading hauls</h5>
+                                            <h5>Fosztogatások betöltése</h5>
                                             <div style="margin-top: 10px;">
                                                 <span id="twcheese_hauls_loading_bar">
                                                     <div class="filler"></div>
